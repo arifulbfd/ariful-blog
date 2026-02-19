@@ -1,8 +1,12 @@
 ---
 import HeroSection from '@/components/HeroSection.jsx';
 import ExpertiseSection from "@/components/sections/ExpertiseSection"
+import PortfolioSection from "@/components/sections/PortfolioSection"
+import GallerySection from "@/components/sections/GallerySection"
+import BlogSection from "@/components/sections/BlogSection"
+import NewsletterSection from "@/components/sections/NewsletterSection"
 import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
+import Footer from '../components/Footer.jsx';
 import Header from '../components/Header.jsx';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 ---
@@ -17,6 +21,10 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		<main class="min-h-screen bg-background text-foreground font-sans">
 			<HeroSection client:load/>
 			<ExpertiseSection/>
+			<PortfolioSection/>
+			<GallerySection/>
+			<BlogSection/>
+			<NewsletterSection/>
 		</main>
 		<Footer />
 	</body>
