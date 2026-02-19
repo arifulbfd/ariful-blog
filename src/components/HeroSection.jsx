@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 // Assets
 import heroBg from "../assets/hero-bg.png";
-import profileImg from "../assets/profile.png";
+import profileImg from "../assets/profile.jpg";
 
 
 const fadeIn = {
