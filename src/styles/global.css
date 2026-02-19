@@ -87,10 +87,7 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
-	max-width: calc(100% - 2em);
 	margin: auto;
-	padding: 3em 1em;
 }
 h1,
 h2,
@@ -143,11 +140,11 @@ input {
 table {
 	width: 100%;
 }
-img {
+/* img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
-}
+} */
 code {
 	padding: 2px 5px;
 	background-color: rgb(var(--gray-light));
