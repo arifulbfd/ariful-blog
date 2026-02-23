@@ -11,7 +11,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://arifulbfd.github.io',
-  base: '/me',
+  base: '/ariful-blog',
   outDir: 'dist',
   integrations: [mdx(), sitemap(), react()],
 
